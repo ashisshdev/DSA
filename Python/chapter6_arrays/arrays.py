@@ -1,9 +1,4 @@
-# Note: Python does not have built-in support for Arrays, but Python Lists can be used instead.
-# Python Lists and Arrays are very similar in theeir strucutre and functionning but there is a very important difference
-# Lists store items that are of various data types. This means that a list can contain integers, floating point numbers,
-# strings, or any other Python data type, at the same time. That is not the case with arrays.
-# As mentioned in the section above, arrays store only items that are of the same single data type.
-# There are arrays that contain only integers, or only floating point numbers, or only any other Python data type we want to use.
+
 
 # to use arrays in python use import array as arr OR from array import *
 

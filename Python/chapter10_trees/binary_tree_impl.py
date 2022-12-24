@@ -47,6 +47,15 @@ class BinaryTree():
                     return False
         return False
 
+    def remove(self,value):
+        if(self.lookUp(value)):
+            pass
+        else :
+            raise "Element does not exist in the tree."
+
+    def printTree():
+        pass
+
     # left, root, right
     def traverseInOrder(self, node:Node):
         # transverse through the left half of the tree
@@ -77,6 +86,39 @@ class BinaryTree():
     #     print(self.root.left)
     #     print(self.root.right)
 
+def remove(root:Node,key):
+   # Base Case
+    if root is None:
+        return root
+ 
+    # Recursive calls for ancestors of
+    # node to be deleted
+    if key < root.key:
+        root.left = remove(root.left, key)
+        return root
+ 
+    elif(key > root.key):
+        root.right = remove(root.right, key)
+        return root
+ 
+    # We reach here when root is the node
+    # to be deleted.
+ 
+    # If root node is a leaf node
+    if(root.left == None and root.right == None):
+        return None
+
+    # if there is any one child
+    if(root.left is None):
+        temp = root.right
+        root = None
+        return temp
+    elif(root.right is None):
+        temp = root.left
+        root = None
+        return temp
+    
+    # If both children exist
 
 # root
 myBinaryTree = BinaryTree(25)
@@ -145,7 +187,7 @@ print(myBinaryTree.lookUp(100)) #Flase
 print(myBinaryTree.lookUp(4)) #True
 print(myBinaryTree.lookUp(18)) #True
 
-
+print(myBinaryTree.remove(100)) #Flase
 
 # # root
 # myBinaryTree = BinaryTree(30)
