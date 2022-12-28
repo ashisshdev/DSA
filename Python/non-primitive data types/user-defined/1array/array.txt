@@ -1,0 +1,38 @@
+An array is a collection of items stored at contiguous memory locations.
+
+Note: Python does not have built-in support for Arrays, but Python Lists can be used instead.
+Python Lists and Arrays are very similar in theeir strucutre and functionning but there is a very important difference
+Lists store items that are of various data types. This means that a list can contain integers, floating point numbers,
+strings, or any other Python data type, at the same time. That is not the case with arrays.
+Arrays store only items that are of the same single data type.
+There are arrays that contain only integers, or only floating point numbers, or only any other Python data type we want to use.
+
+There are multiple ways to implement arrays in python
+1 - using the Lists data type
+2 - using array library 
+ ..the only major difference between the above two approaches is that we can not define the type of data to store in a 
+ list that is, a List can contain muliple data-types meanwhile an array can only hold data of one specific type only. Be it a string or int or bool.
+
+
+Access is very easy in arrays therefor the worst time complexity is O(1),meanwhile other operations can go upto liner O(n) space and time complexities.
+
+-----------------X-----------------
+
+Applications :
+Arrays are used to implement data structures like a stack, queue, etc.
+Arrays are used for matrices and other mathematical implementations.
+Arrays are used as the base of all searching and sorting algorithms.
+
+Advantages of arrays:
+Arrays store multiple data of similar types with the same name. So we don't have to declare multiple variables to store multi data of same type.
+Since the elements in the array are stored at contiguous memory locations it is easy to iterate in this data structure and unit time is 
+required to access an element if the index is known. (O(1))
+
+Disadvantages of arrays:
+Insertion and deletion operations are costly in arrays as elements are stored in contiguous memory. 
+If capacity is more and occupancy is less, memory is wasted.
+
+
+
+
+

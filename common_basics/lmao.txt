@@ -1,0 +1,38 @@
+Big O
+defination and examples of all cases 
+
+some userful terms 
+
+what are data structures and algorithms 
+
+primitive data structures in python
+int float string bool 
+
+non-primitive 
+Built-In's
+list 
+tuplet (json)
+set 
+dictionary (map)
+User Defined's
+What,Advantages,Disadvantages 
+Array
+HaspMap 
+Linked list
+ Doubly linked list
+Queue 
+Stack 
+Tree
+Graph 
+
+- Explanation of each with code examples 
++ advantages and disadvantages  
+
+
+
+
+
+
+
+
+

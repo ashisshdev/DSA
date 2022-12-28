@@ -1,0 +1,9 @@
+The best thing about technology is the scalability it provides. You can reach millions of people without getting outside of your room. Perform countless operations. Do businessess. Manage almost any aspect of your life. 
+
+As we discusses earlier that for a code to be Scalable we have to deal with time and space complexities.
+
+To measure the time and space complexities we utilise a term called BigO or the bigO notation.  
+
+
+Examples of BigO codes 
+

@@ -1,0 +1,22 @@
+Complexity Analysis
+Hash tables have an average time complexity of O (1) in the best-case scenario. The worst-case time complexity is O(n). The worst-case scenario occurs when many values generate the same hash key, and we have to resolve the collision by probing.
+
+Real-world Applications
+In the real-world, hash tables are used to store data for
+
+Databases
+Associative arrays
+Sets
+Memory cache
+Advantages of hash tables
+Here, are pros/benefits of using hash tables:
+
+Hash tables have high performance when looking up data, inserting, and deleting existing values.
+The time complexity for hash tables is constant regardless of the number of items in the table.
+They perform very well even when working with large datasets.
+Disadvantages of hash tables
+Here, are cons of using hash tables:
+
+You cannot use a null value as a key.
+Collisions cannot be avoided when generating keys using. hash functions. Collisions occur when a key that is already in use is generated.
+If the hashing function has many collisions, this can lead to performance decrease.

@@ -1,0 +1,43 @@
+Stack is a simple linear data structure used for storing data. Stack follows the LIFO(Last In First Out) strategy that states that the element that is inserted last will come out first. You can take a pile of plates kept on top of each other as a real-life example. The plate which we put last is on the top and since we remove the plate that is at the top, we can say that the plate that was put last comes out first.
+
+Can be implement using arrays or linked lists as well as using libraries such as queue and deque   .
+
+Applications:
+Undo function in Text Editor.
+Browser history.
+Notifications on mobile devices, last one to pop appears on top.
+Stacks are useful for function calls, storing the activation records and deleting them after returning from the function. It is very useful in processing the function calls.
+Recursion involves concept of stack-overflow.
+
+
+Advantages:
+Used on OS level, so that machine can know the order of running functions.
+For example - 
+function1(){}
+function2(){}
+function3(){
+    if(something){
+        finction1()
+    } else {
+        function2()
+    }
+}
+main(){
+    if(someBoolean){
+        function3()
+    }
+    function2()
+}
+
+if 'something' is true here then the stack of functions will be
+function1()
+function3()
+function2()
+
+
+Disadvantages:
+If too many objects are created then it can lead to stack overflow.
+Random accessing is not possible in stack.
+
+
+

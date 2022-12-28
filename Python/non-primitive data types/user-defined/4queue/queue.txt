@@ -1,0 +1,20 @@
+A Queue is defined as a linear data structure that is open at both ends and the operations are performed in First In First Out (FIFO) order.  It means that the element that is inserted first in the queue will come out first and the element that is inserted last will come out last. It is an ordered list in which insertion of an element is done from one end which is known as the rear end and deletion of an element is done from the other which is known as the front end.
+
+Just like a real life Queue.
+
+
+Applications:
+Multi programming: Multi programming means when multiple programs are running in the main memory. It is essential to organize these multiple programs and these multiple programs are organized as queues. 
+Network calls : Queue is used to make multiple network calls. (async programming)
+Job Scheduling: The computer has a task to execute a particular number of jobs that are scheduled to be executed one after another. These jobs are assigned to the processor one by one which is organized using a queue.
+Railway tickets booking (first come first get), waiting list implementation etc..
+Solving raised customer queries. 
+
+
+Advantages:
+Operations such as insertion and deletion can be performed with ease as it follows the first in first out rule.
+
+Disdvantages:
+The operations such as insertion and deletion of elements from the middle are expensive.
+Searching an element takes O(N) time.
+

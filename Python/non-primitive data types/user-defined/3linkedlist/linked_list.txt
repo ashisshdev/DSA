@@ -1,0 +1,25 @@
+A Linked List is a linear data structure that is used to store a collection of data with the help of nodes. A linked list is made up of two items that are data and a reference to the next node.
+
+Linked List can be created or can be implemented using different libraries such as structlinks, llist, collections etc..
+
+In our example we implemented linked list from scrach.
+
+Applcations of Linked Lists:
+Linked Lists are used to implement stacks and queues.
+Songs in a playlist contain data and next song reference as well as previous song reference. (Doubly Linked Lists)
+Can be used to implement Undo and Redo functionalities. 
+Web browser timeline, webpages are linked using linked lists.
+Switching between two applications is carried out by using “alt+tab” in windows and “cmd+tab” in mac book. It requires the functionality of circular linked list.
+
+
+Advantages:
+Insertion and deletion in linked lists are very efficient.
+Linked list can be expanded in constant time.
+Uses non-contiguousmemory hence, no memory wastage unlike arrays.
+
+Disadvantages:
+More memory required per element as it stores its own value as well as reference/pointer to next value.
+To access any element we have to iterate through whole list unline arrays random access is not available because Linked Lists uses dynamic memory allocation.
+Same goes for searching in Linked Lists, we have to iterate through each element.
+
+

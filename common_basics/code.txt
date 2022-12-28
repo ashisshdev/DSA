@@ -1,0 +1,80 @@
+Programming Languague?
+Just like normal languauges like English, Hindi, Spanish... , a programming language is a medium for communication between humans and machines 
+
+What is Code? 
+Code is a system of rules to follow while writing computer programms using programming languages. (syntax)
+
+What is a program?
+Program is a piece of instruction written in a programming language (python, java) that is provided to the computer/machine to perform a specific set of instructions.
+
+
+What is good code?
+A piece of code that is both 
+1 Readable and
+2 Scalable 
+  is considered a good code. 
+In any other tasks in general life, consider baking a cake for instance, we will say that the process/instructions/the manual is good if it's easy to understand.
+That’s it. That is how simple it is. Readability is at the top. No one cares about the pretty picture of the cake on top of the manual if the instructions inside are not readable.
+
+
+Readability
+How do you improve readability?
+Its actually pretty easy, just the basics :
+proper/meaningful naming of variables, assets, objects & functions
+understandable structuring of files and folders
+using comments wherever necessary
+breaking logic into multiple small parts
+following practices like DRY (Don't repeat yourself) and KISS (Keep It Simple Stupid)
+
+Scalability
+When writing a program it does not matter how good it works at the moment but how stable it will be in the future when the number of users using that program increases as well as when the database of the program increase.
+Scalability is further made up of two things that are Time and Space complexities. 
+
+Time Complexity
+Believe it, no one likes slow applications. It's not the 90s anymore, people ain’t that patient.
+When we talk about the speed of a Programme, we get introduced to the concept of Big O or the “Big O notation”.
+In simplest words, BigO is a measure of how well a program is written.
+
+Note the fact that if the number of elements you are dealing with is small (your userbase or database if small) then things don't really matter but hey wait, we are talking about scalability here, aren't we? So always think about the elements in terms of a hundred thousand and millions because that’s where things get tricky and the need for a software Engineer arises.
+
+Space Complexity
+The Space Complexity of an algorithm/process is the total space taken by that algorithm/process/piece-of-code. That includes temporary space while processing as well as space used by the input. Basically what happens is whatever you are (or the program) is working on is brought into the main memory i.e. RAM of your machine/computer and that is where everything happens but as we all know, it (RAM) is a scarce resource and every other program is using it so we have to manage the memory usage of our program so that it doesn't crash the system.
+
+So what causes Space Complexity? Basic Stuff like variables declarations and Allocations, DataStructures, Outside Function Calls, etc...
+
+So therefore we can conclude that there are three pillars of good code:
+
+1 Readablity 
+2 Time complexity
+3 Space 
+
+Spoiler - we often have to trade off between the time and space to get the desired results.
+
+The Big Why? 
+(making sense of the gibbrish above)
+But why does it all matter? Why DataStructures, GoodCode, Space, and Time complexities matters? Because knowing how much time and space your program will take and making it as efficient as possible is what makes you a great Software Engineer and makes tech companies pay you hefty money 😁.
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
