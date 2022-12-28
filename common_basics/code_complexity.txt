@@ -4,6 +4,40 @@ As we discusses earlier that for a code to be Scalable we have to deal with time
 
 To measure the time and space complexities we utilise a term called BigO or the bigO notation.  
 
+Rules to calculate BigO.
 
-Examples of BigO codes 
+Rule 1: Drop Constants. O(2n+5n^2) = O(n+n^2)
+
+Rule 2: Drop Non-dominant terms. O(n+n^2) = O(n^2)
+
+Rule 3: Different inputs should have different variables, O(a+b). A and B arrays nested would be O(a*b).
+'+' for steps in order
+'*' for nested steps
+
+---------------------------------
+
+Different BigO codes (Best to worst)
+O(1) Constant- no loops
+O(log N) Logarithmic- usually searching algorithms have log n if they are sorted (Binary Search) - Trees have O(Log n) functionalities
+log n = the power to which you need to put 2 to get “n”
+O(n) Linear- for loops, while loops through n items 
+O(n log(n)) Log Liniear- usually sorting operations 
+O(n^2) Quadratic- every element in a collection needs to be compared to ever other element. Two nested loops of same size. 
+O(2^n) Exponential- recursive algorithms that solves a problem of size N 
+kind of opposite of O(log n)
+O(n!) Factorial- you are adding a loop for every element
+
+Note that:
+Iterating through half a collection is still O(n)
+For two separate collections of different sizes : 
+if nested O(a * b)
+if not nested O(a + b)
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+Causes of Space Complexity:
+Variables
+Data Structures
+Function Call
+Allocations
 
