@@ -1,0 +1,44 @@
+What to use ?
+
+Bubble Sort
+- Never
+
+Selection Sort 
+- Never 
+
+Insertion Sort
+- items are few 
+- items are mostly sorted 
+
+Merge Sort
+- tradeoff between space and time 
+- if not limit on space, use it 
+- basically use when operation to perform is on servers 
+
+Quick Sort
+- tradeoff between space and time 
+- if not limit on time, use it 
+- basically use when operation to perform is on users machine 
+- NEVER use if list is already nearly sorted 
+- To improve quick sort's worst case - select middle element of list or select random element as pivot 
+
+
+Heap Sort 
+- when we dont want to tradeoff between any of the time and space 
+
+
+
+For more information on when to use what..
+https://medium.com/@kaustubhdwivedi1729/when-to-use-which-sorting-algorithm-125897e40295
+https://stackoverflow.com/questions/1933759/when-is-each-sorting-algorithm-used
+
+
+
+
+We also talked about insertion sort selection sort and bubble sort.
+Those are fun when you're doing something quick and dirty and you want to just experiment around with sorting.
+But in real life you're not going to use them and most likely in real life you are using the framework or languages or libraries sorting algorithm their advantage is that they're fairly easy to implement in Cote and during the interview you might say something like this.
+In those rare cases that they ask you to implement a sorting algorithm you'll say well because we have a time constraint I like to use something naive and not efficient like bubble sort which is slow in real life instead of implementing something like merge sort if it's OK with you because.
+Because we can assume that sort is something that we can implement with a library or fairly easily with documentation or you can say something like we can just use merge sort to divide and conquer the code to make it more efficient.
+And this way you show the interviewer that yes you can implement sorting like bubble sort but you also know about things like Merge Sort to make it more efficient without having to actually implement it.
+

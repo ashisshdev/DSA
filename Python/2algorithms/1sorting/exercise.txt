@@ -1,0 +1,53 @@
+Exercise Link:
+https://replit.com/@aneagoie/sorting-exercise#index.js
+Look for more answers in comments of the repl.
+
+---------------------------------------------------------------------------
+
+Which sorting method to use in following scenarios?
+
+//#1 - Sort 10 schools around your house by distance:
+My answer : Insertion sort
+Why? Because data is so small, why go for complexity of merge and quick. 
+Instructors Answer : Same, 
+Why? Easy to implement, small space complexity, small dataset, simplest
+
+//#2 - eBay sorts listings by the current Bid amount:
+My answer : Dont know 
+Why? 
+Instructors Answer : Radix and counting sort
+Why? Because a bid is a number. 
+
+//#3 - Sport scores on ESPN 
+My answer : Merge Sort
+Why? Data is large so not insertion sort, but the data is close and duplicates can be there, and merge sort is stable. 
+Instructors Answer : Quick Sort 
+Why? The data can vary in terms of decimal places and stuff. 
+
+//#4 - Massive database (can't fit all into memory) needs to sort through past year's user data
+My answer : Heap sort. 
+Why? 
+Instructors Answer : Merge Sort
+Why? We will be doing the sorting on server and not on users machine because data is so big. Also the data is very large and we cant risk worst case of QuickSort. 
+
+//#5 - Almost sorted Udemy review data needs to update and add 2 new reviews
+My answer : We don't have the length of review data therefore Merge Sort, if length is small then insertion sort.
+Why? Because data is almost sorted already and insertion works best and in case we have big data, merge sort divides the data and uses insertion sort under the hood.
+Instructors Answer : Insertion Sort.
+Why? Personal Assumptions. 
+
+//#6 - Temperature Records for the past 50 years in Canada
+My answer : Merge Sort
+Why? same reason as scores on ESPN
+Instructors Answer : Radix and Counting if there are no decimal places, if decimal places are there in data then Quick Sort. 
+Why? To save on memory.
+
+//#7 - Large user name database needs to be sorted. Data is very very random.
+My answer : If space is issue then Quick else Merge sort.  
+Why? 
+Instructors Answer : same as mine. 
+
+//#8 - You want to teach sorting for the first time
+My answer : Bubble,Selection and Insertion sorts
+Why? Easy syntax 
+Instructors Answer : same as mine.

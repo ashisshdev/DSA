@@ -68,3 +68,7 @@ print()
 print(mergeSort(numbers2))
 print()
 print(mergeSort(numbers3))
+
+# lmao I realised late that I used insertion sort in the merge sort and its actually good
+# java and pyhton use this combination that I did in their .sort methods 
+# and this hybrid of merge + insertion is called TimSort 
