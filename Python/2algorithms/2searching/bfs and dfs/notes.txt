@@ -1,0 +1,70 @@
+Breadth first search and depth first search are two ways to traverse throught the non-linear data structures (Trees and Graphs).
+
+Refer to the visuals to see the basic difference in both approaches. 
+
+Searching is fairly easy in the non-linear data structures if they are sorted but when we have to traverse/iterate throught the elements of a data structure (to visit all nodes/items at least once) then we have to use one of the above approaches.
+
+
+Basic differences between bds and dfs are:
+BFS 
++ Good for Shortest Path b/w starting point and target point
++ Good when we know we just need to access closer nodes
+- Takes more memory 
+>If we do know the location of the targeted node and that it is in the upper level of the tree/graph then good to go with BFS.
+
+DFS 
++ Less Memory required compared to BFS
++ Good for knowing if a certain path exists or not
+- Can get slow in execution 
+
+--------------------------------------------------
+
+Exercise https://replit.com/@aneagoie/Traversal-Quiz-1#index.js
+
+
+//If you know a solution is not far from the root of the tree:
+My Answer : Breadth First Search 
+Instructors Answer : BFS 
+
+//If the tree is very deep and solutions are rare: 
+My Answer : Depth first search
+Instructors Answer : Both, but BFS because DFS can take too long 
+
+//If the tree is very wide:
+My Answer : DFS , because of memory 
+Instructors Answer : DFS , BFS will need tooo much memory 
+
+//If solutions are frequent but located deep in the tree:
+My Answer : DFS 
+Instructors Answer : DFS
+
+//Determining whether a path exists between two nodes:
+My Answer : DFS 
+Instructors Answer : DFS
+
+//Finding the shortest path:
+My Answer : Breadth First Search 
+Instructors Answer : BFS
+
+
+-----------------------------
+
+
+
+In a perfect binary tree, DFS can be done in various ways that are:
+
+InOrder - all elements in accending order
+left,root,right
+useful to perform operations as it returns a sorted array 
+
+PreOrder - 
+root,left,right 
+useful in re-creating the tree back from array 
+
+PostOrder means - 
+left,right,root 
+
+
+
+
+

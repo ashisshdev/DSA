@@ -16,7 +16,7 @@ All nodes have 2 childrens.
 All leaf nodes are on same level.
 
 1.2.2 Full Binary Tree 
-Every node have either 0 or 2 children. No node should have 1 children only.
+Every node have either 0 or 2 children. No node should have 1 children only. 
 
 1.2.3 Binary Search Trees 
 Binary trees where 
