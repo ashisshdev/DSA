@@ -63,7 +63,7 @@ useful in re-creating the tree back from array
 
 PostOrder means - 
 left,right,root 
-
+useful to delete the binary tree.
 
 
 
