@@ -1,0 +1,23 @@
+A Graph is a non-linear data structure consisting of vertices and edges.
+The vertices are sometimes also referred to as nodes and the edges are lines or arcs that connect any two nodes in the graph.
+More formally a Graph is composed of a set of vertices( V ) and a set of edges( E ). The graph is denoted by G(E, V).
+
+Simply, A graph can be defined as group of vertices and edges that are used to connect these vertices. 
+
+Graphs are categoarised in majorly two ways
+1 Directed grapps
+- movement is uni-directional , a one-way street , followers on twitter
+2 UnDirected graphs 
+- movement is bi-directional, a two-way highway between two cities , friends on facebook 
+
+On the basis of parent-child relationship:  
+A graph can be seen as a cyclic tree, where the vertices (Nodes) maintain any complex relationship among them instead of having parent child relationship.
+Thus we can say that a normal Binary Search Tree is also a graph that is acyclic i.e. it follows a strictly parent-child relationship only.
+
+Another way to classify graphs is weights:
+The nodes can carry any value but the edges/lines/arcs that connect those nodes can also have a value called weight. 
+For example, two roads connects two cities but one is longer than the other, we can describe it as one road have more weight than onther.
+This way graphs can be of two types:
+Weighted Graphs - every edge have its weight
+Unweighted Graphs - every edge has either 0 or equal wieght as any other edge
+
