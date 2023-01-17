@@ -21,3 +21,21 @@ This way graphs can be of two types:
 Weighted Graphs - every edge have its weight
 Unweighted Graphs - every edge has either 0 or equal wieght as any other edge
 
+-------------
+
+Applications:
+Google maps uses weighted graphs to calculate shortest distance between two places.
+Facebook uses undirected graphs for 'add friend' functionality, and suggesting related content.
+Twitter/Instagram/Linkedin uses directed+undirected graphs for follow/following functionality. 
+In transportation, graphs are used to find the shortest path.
+
+
+Advantages:
+Relationships 
+Most accurate with real world scenarios. 
+
+Disadvantages:
+Hard to Scale because they can get complicated 
+(that's why we don't usually build/implement a graph ourself, we use services like neo4j )
+
+
