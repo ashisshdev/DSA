@@ -12,6 +12,11 @@ class GraphDataStructure():
                     self.adjacencyList[start].append(end)
         print(self.adjacencyList)
 
+    def __repr__(self) -> str:
+        print(self.adjacencyList)
+        for key in self.adjacencyList:
+            print(key, '->', self.adjacencyList[key])
+
     # add new elements
     def addNode(self,node,childs=[]):        
         if node not in self.adjacencyList:
@@ -23,9 +28,6 @@ class GraphDataStructure():
     
     def addVertex(self , initialNode,targetNode):
         self.adjacencyList[initialNode].extend([targetNode])
-
-    def printAdjacencyList(self):
-        print(self.adjacencyList)
 
     # returns a list of all the possible paths from one point to another 
     def getPaths(self,initialNode,targetNode,path=[]):
@@ -67,12 +69,12 @@ if __name__ == '__main__':
     myGraph.addNode(4,[18,19,20])
     myGraph.addNode(5,[23,24])
 
-    myGraph.printAdjacencyList()
+    myGraph.__repr__()
 
     myGraph.addVertex(10,99)
     myGraph.addVertex(1,15)
 
-    myGraph.printAdjacencyList()
+    myGraph.__repr__()
 
     print(myGraph.getPaths(0,0))
     print(myGraph.getPaths(19,0))

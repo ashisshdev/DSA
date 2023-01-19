@@ -80,7 +80,7 @@ class BinaryTree():
         return finalQueue
 
     # implementing breadth first traversal but using recursion
-    def breadthTraversalWithRecurssio(self,queue,finalList):
+    def breadthTraversalWithRecurssio(self,queue,finalList=[]):
         if(len(queue)):
             current_node = queue.pop(0)
             finalList.append(current_node.value)
@@ -95,7 +95,7 @@ class BinaryTree():
     # using recursive approach in each variation of depth first search 
 
     # left, root, right
-    def depthTraverseInOrder(self, node:Node , list):
+    def depthTraverseInOrder(self, node:Node , list=[]):
         # transverse through the left half of the tree
         if(node.left):
             self.depthTraverseInOrder(node.left , list)
@@ -106,7 +106,7 @@ class BinaryTree():
         return list
 
     # root, left, right
-    def depthTraversePreOrder(self,node:Node , list):
+    def depthTraversePreOrder(self,node:Node , list=[]):
         list.append(node.value)
         if(node.left):
             self.depthTraversePreOrder(node.left , list)
@@ -115,7 +115,7 @@ class BinaryTree():
         return list
 
     # left, right, root 
-    def depthTraversePostOrder(self, node:Node , list):
+    def depthTraversePostOrder(self, node:Node , list=[]):
         if(node.left):  
             self.depthTraversePostOrder(node.left , list)
         if(node.right):
@@ -160,7 +160,7 @@ myBinaryTree.insert(90)
 
 # Breadth first traversal should look like this : 25   15 50   10 22 35 70    4 12 18 24 31 44 66 90
 print(myBinaryTree.breadthTraverse(node=myBinaryTree.root))
-print(myBinaryTree.breadthTraversalWithRecurssio([myBinaryTree.root],[]))
+print(myBinaryTree.breadthTraversalWithRecurssio([myBinaryTree.root]))
 
 #-----------------------
 print()
