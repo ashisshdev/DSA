@@ -93,38 +93,13 @@ class GraphDataStructure():
                 return self.breadthTraversalWithRecursion(queue,finalList)
         else: return finalList
 
-    # def depthTraversal(self,node,visited=[]):
-    #     if(node not in visited):
-    #         visited.append(node)
-    #         print(node , end=" ")
-    # #        print(self.adjacencyList[node]) 
-    #         # if(node in self.adjacencyList.keys()):
-    #         for item in self.adjacencyList[node]:
-    #             if(item not in visited):
-    #                 return self.depthTraversal(node=item,visited=visited)
-    #     else : return 
-
-    # def depthTraversal(self,node):
-    #     stack = [node]
-    #     visited = []
-    #     while stack:
-    #         current = stack.pop(0)
-    #         if(current not in visited):
-    #             if(current in self.adjacencyList.keys()):
-    #                 visited.append(current)
-    #                 stack.extend(self.adjacencyList[current])
-    #             else:
-    #                 visited.append(current)    
-    #     return visited
-
-    def depthTraversal(self,node , visited=[]):
-        if(node not in visited):
+    def depthTraversal(self,node,visited=[]):
+        if node not in visited:
             visited.append(node)
-            if(node in self.adjacencyList.keys()):
-                # stack.extend(self.adjacencyList[current])
+            if node in self.adjacencyList.keys():
                 for item in self.adjacencyList[node]:
-                    return self.depthTraversal(item,visited)
-        else: return 
+                    self.depthTraversal(item,visited)
+            return visited
 
 if __name__ == '__main__':
     someNodes = [
@@ -174,12 +149,9 @@ if __name__ == '__main__':
     print(myGraph.breadthTraversal(node=2))
     print(myGraph.breadthTraversalWithRecursion(queue=[10],finalList=[]))
 
-    myGraph.__repr__()
-
     print("Depth First Traversals : ")
-    print(myGraph.depthTraversal(0))
-
-    print('\n')
+    print(myGraph.depthTraversal(0 , visited=[]))
+    print(myGraph.depthTraversal(2 , visited=[]))
 
 
 
