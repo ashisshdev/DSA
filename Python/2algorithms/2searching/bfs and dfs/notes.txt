@@ -65,6 +65,13 @@ PostOrder means -
 left,right,root 
 useful to delete the binary tree.
 
+-------------------------
+
+In case of weighted graphs, things can get really complicated 
+so we use algorithms such as dijkstra and bellman-ford algorithms to find shortest path between two nodes
+Basic difference between them is 
+- Dijkstra's algorithm is more stable(effective) and faster but can't be used in case of negative weights involved. 
+- Bellman-Ford's algorithms is not much effective comparitevely (in terms of complexity) but it can accomodate negative weights 
 
 
 

@@ -1,0 +1,11 @@
+Dynamic programming is a way to solve problems by breaking it down into a collection of subproblems, solving each of those solve problems just once and storing their solutions in case next time the same subproblem occurs.
+The main use of dynamic programming is to solve optimization problems. Here, optimization problems mean that when we are trying to find out the minimum or the maximum solution of a problem. The dynamic programming guarantees to find the optimal solution of a problem if the solution exists.
+
+Concept of Caching ~~ Memorization 
+storing stuff ahead of time that will be useful later
+
+
+Time Complexity = O(n)
+Space Complexity = O()
+
+Drawback of this approach is increased space complexity, as we have to cache results. 
